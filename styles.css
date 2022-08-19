@@ -1,0 +1,60 @@
+div {
+  background-color: blue;
+  border-width: 3px;
+  width: 35px;
+  height: 35px;
+}
+
+.container {
+  align-content: center;
+  display: flex;
+  width: 57%;
+  height: 100%;
+}
+
+body {
+  background-color: blue;
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  border-style: dotted;
+  border-width: 1px;
+}
+
+.clear {
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+
+}
+
+.options {
+  left: 58%;
+  position: absolute;
+  width: 39%;
+  height: 85%;
+  border-color: lightblue;
+  background-color: lightblue;
+  border-style: solid;
+}
+
+.currentColor {
+  transform: translate(70px, -174px);
+  background-color: red;
+}
+
+.eraser {
+  width: 70px;
+  background-color: grey;
+  text-align: center;
+  font-size: 25px;
+  transform: translate(70px, 35px)
+}
+
+.customColor {
+  transform: translate(150px);
+  background-color: transparent;
+}
